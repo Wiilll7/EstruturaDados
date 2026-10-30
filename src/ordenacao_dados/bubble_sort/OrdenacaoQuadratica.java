@@ -1,3 +1,4 @@
+
 package ordenacao_dados.bubble_sort;
 
 import java.util.Arrays;
@@ -95,7 +96,7 @@ public class OrdenacaoQuadratica {
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		// Array original desordenado
 		Random r = new Random();
@@ -108,6 +109,10 @@ public class OrdenacaoQuadratica {
 		MetricasOrdenacao mo3 = new MetricasOrdenacao();
 		
 		System.out.println("Array Original: "+Arrays.toString(vetorBubble)+"\n");
+<<<<<<< Updated upstream
+=======
+		
+>>>>>>> Stashed changes
 		int[] vetorSelection = vetorBubble.clone();
 		int[] vetorInsersion = vetorBubble.clone();
 		bubbleSort(vetorBubble, mo1);
